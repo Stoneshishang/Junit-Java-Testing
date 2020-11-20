@@ -1,13 +1,12 @@
-package com.company;
-
 import com.company.Product;
 import com.company.ProductNotFoundException;
 import com.company.ShoppingCart;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-class TestJunit {
+
+public class JUnitTest {
     @Test
     public void testAdd() {
         String str = "Junit is working fine";
